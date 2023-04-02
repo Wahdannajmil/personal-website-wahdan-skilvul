@@ -70,6 +70,7 @@ h5 {
   background-color: salmon;
 }
 #home {
+  background-image: url("../images/bgfix.jpg");
   background-color: #4f4c4c;
   background-size: cover;
   background-position: center center;
