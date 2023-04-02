@@ -66,7 +66,9 @@ h5 {
 #navbar ul li a:hover {
   color: salmon;
 }
-
+#navbar li a.active {
+  background-color: salmon;
+}
 #home {
   background-color: #4f4c4c;
   background-size: cover;
@@ -122,6 +124,18 @@ h5 {
 
 #experience-details {
   margin-top: 90px;
+  display: flex;
+}
+#experience-details .box {
+  border-radius: 5px;
+  max-width: 300px;
+  display: inline-block;
+  background-color: grey;
+  color: #fff;
+  width: 500px;
+  height: 500px;
+  margin: 38px;
+  padding: 20px;
 }
 #experience p {
     font-family: "Poppins","Arial";
@@ -129,19 +143,26 @@ h5 {
 #experience-details p {
     font-family: "Poppins";
 }
-.box {
-  display: inline-block;
-  background-color: grey;
-  color: #fff;
-  width: 300px;
-  height: 380px;
-  margin: 38px;
-  padding: 20px;
+
+#experience-details a {
+    font-family: "Poppins";
+}
+.lihat-sertifikat {
+  background-color: salmon; 
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 8px; 
 }
 
-.box img {
-  border-radius: 50%;
-  height: 80px;
+#experience-details .box img {
+  height: 100px;
   margin: 40px 20px;
 }
 
@@ -159,6 +180,11 @@ h5 {
   padding-top: 140px;
   padding-left: 30px;
   padding-right: 10px;
+  font-family: "Poppins"
+}
+
+.projects-left a {
+    color: rgb(228, 205, 37);
 }
 
 .projects-img {
