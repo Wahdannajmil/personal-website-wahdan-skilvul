@@ -114,16 +114,21 @@ h5 {
   background-color: salmon;
 }
 
-#services {
+#experience {
   text-align: center;
   max-width: 500px;
   margin: auto;
 }
 
-#services-details {
+#experience-details {
   margin-top: 90px;
 }
-
+#experience p {
+    font-family: "Poppins","Arial";
+}
+#experience-details p {
+    font-family: "Poppins";
+}
 .box {
   display: inline-block;
   background-color: grey;
@@ -201,6 +206,9 @@ h5 {
 .About-details h4 {
   margin-bottom: 10px;
   font-size: 25px;
+}
+.About-details p{
+  font-family: "Poppins"
 }
 
 .contact-box {
