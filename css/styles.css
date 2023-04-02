@@ -22,7 +22,7 @@ h5 {
 }
 
 .text-color {
-  color: salmon;
+  color: orange;
 }
 
 .titles {
@@ -64,10 +64,10 @@ h5 {
 }
 
 #navbar ul li a:hover {
-  color: salmon;
+  color: orange;
 }
 #navbar li a.active {
-  background-color: salmon;
+  background-color: orange;
 }
 #home {
   background-image: url("../images/bgfix.jpg");
@@ -82,19 +82,22 @@ h5 {
   align-items: center;
   height: 100vh;
   background-size: cover;
-  background-position: center;
 }
 
 .hero h1 {
   font-size: 48px;
   color: #ffffff;
   margin: 0;
+  padding-bottom: 150px;
+}
+.hero .btn {
+  margin-left: 250px;
 }
 
 .hero img {
   width: 400px;
   margin: 0 20px;
-  border: 5px solid salmon;
+  border: 20px solid orange;
   border-radius: 50%;
   overflow: hidden;
 
@@ -108,13 +111,13 @@ h5 {
   padding: 18px;
   font-size: 30px;
   color: #cfcfcf;
-  border: 3px solid salmon;
+  border: 3px solid orange;
   width: fit-content;
 }
 
 .btn:hover {
   color: #fff;
-  background-color: salmon;
+  background-color: orange;
 }
 
 #experience {
@@ -149,7 +152,7 @@ h5 {
     font-family: "Poppins";
 }
 .lihat-sertifikat {
-  background-color: salmon; 
+  background-color: orange; 
   border: none; 
   color: white; 
   padding: 15px 32px; 
