@@ -1,0 +1,264 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* =======utility calsses======= */
+.text-color {
+  color: salmon;
+}
+
+.titles {
+  color: #4f4c4c;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 150px;
+}
+
+/* =======navbar======= */
+#navbar {
+  background-color: #4f4c4c;
+  color: #0f0a0a;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
+#navbar h2 {
+  float: left;
+  padding: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 23px;
+}
+
+#navbar ul li a:hover {
+  color: salmon;
+}
+
+/* =========================End of navbar============================ */
+/* =======home======= */
+#home {
+  background-color: #4f4c4c;
+  background-size: cover;
+  background-position: center center;
+  height: 721px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.hero img {
+  width: 400px;
+  margin: 0 20px;
+}
+img {
+  border: 5px solid rgb(160, 154, 154);
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+  padding: 18px;
+  font-size: 30px;
+  color: #cfcfcf;
+  border: 3px solid salmon;
+  width: fit-content;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: salmon;
+}
+/* =========================End of home============================ */
+/* =======Services======= */
+#services {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+#services-details {
+  margin-top: 90px;
+}
+
+.box {
+  display: inline-block;
+  background-color: grey;
+  color: #fff;
+  width: 300px;
+  height: 380px;
+  margin: 38px;
+  padding: 20px;
+}
+
+.box img {
+  border-radius: 50%;
+  height: 80px;
+  margin: 40px 20px;
+}
+/* =========================End of services============================ */
+/* =======projects======= */
+.projects-container {
+  display: flex;
+  height: 418px;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top: 35px; */
+}
+.projects-left {
+  background-color: #4f4c4c;
+  color: #fff;
+  width: 700px;
+  padding-top: 140px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.projects-img {
+  position: relative;
+  overflow: hidden;
+  width: 700px;
+}
+.projects-img img {
+  max-width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.projects-img:hover img {
+  transform: scale(1.3);
+}
+/* =========================End of projects============================ */
+/* =======About======= */
+.About-container {
+  display: flex;
+  margin-top: 60px;
+}
+
+.About-box {
+  width: 300px;
+  margin: 100px 100px 60px 200px;
+}
+
+.About-box img {
+  height: 500px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.About-details {
+  margin-top: 190px;
+  margin-right: 80px;
+}
+
+.About-details h2 {
+  color: #4f4c4c;
+  font-size: 60px;
+}
+
+.About-details h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+/* =========================End of about============================ */
+/* =======contact======= */
+.contact-box {
+  display: inline-block;
+  height: 150px;
+  width: 350px;
+  background-color: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 35px;
+  transition: box-shadow 0.3s;
+}
+
+.contact-box:hover {
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.contact-box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 35px;
+  float: left;
+}
+
+.contact-box h6 {
+  margin-top: 40px;
+  font-size: 25px;
+}
+/* =======footer======= */
+
+footer {
+  margin-top: 200px;
+  background-color: #4f4c4c;
+  text-align: center;
+  color: #fff;
+}
+
+footer h2 {
+  padding-top: 20px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+footer h6 {
+  padding-top: 25px;
+}
+/* =========================End of contact============================ */
