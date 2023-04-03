@@ -35,7 +35,7 @@ h5 {
 #navbar {
   background-color: #4f4c4c;
   color: #0f0a0a;
-  overflow: auto;
+  overflow: hidden;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -66,7 +66,10 @@ h5 {
 #navbar ul li a:hover {
   color: orange;
 }
-#navbar li a.active {
+#navbar ul li a.active {
+  background-color: orange;
+}
+#navbar ul li a.active:hover {
   background-color: orange;
 }
 #home {
@@ -97,7 +100,7 @@ h5 {
 .hero img {
   width: 400px;
   margin: 0 20px;
-  border: 20px solid orange;
+  border: 5px solid orange;
   border-radius: 50%;
   overflow: hidden;
 
@@ -181,7 +184,7 @@ h5 {
   /* margin-top: 35px; */
 }
 .projects-left {
-  background-color: rgb(139, 138, 138);
+  background-color: rgb(105, 103, 103);
   color: #fff;
   width: 700px;
   padding-top: 140px;
