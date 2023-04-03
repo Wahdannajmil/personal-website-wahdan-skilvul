@@ -134,15 +134,16 @@ h5 {
   border-radius: 5px;
   max-width: 300px;
   display: inline-block;
-  background-color: grey;
+  background-color: rgb(139, 138, 138);
   color: #fff;
-  width: 500px;
-  height: 500px;
-  margin: 38px;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
   padding: 20px;
 }
 #experience p {
     font-family: "Poppins","Arial";
+    font-size: 18px;
 }
 #experience-details p {
     font-family: "Poppins";
@@ -166,8 +167,10 @@ h5 {
 }
 
 #experience-details .box img {
-  height: 100px;
-  margin: 40px 20px;
+  height: 150px;
+  width: auto;
+  margin: auto;
+  padding-left: 25px;
 }
 
 .projects-container {
@@ -178,7 +181,7 @@ h5 {
   /* margin-top: 35px; */
 }
 .projects-left {
-  background-color: #4f4c4c;
+  background-color: rgb(139, 138, 138);
   color: #fff;
   width: 700px;
   padding-top: 140px;
@@ -188,7 +191,7 @@ h5 {
 }
 
 .projects-left a {
-    color: rgb(228, 205, 37);
+    color: rgb(255, 221, 53);
 }
 
 .projects-img {
