@@ -175,7 +175,65 @@ h5 {
   margin: auto;
   padding-left: 25px;
 }
+.featured-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#article {
+  background-color: #ffffff;
+}
+.card {
+  font-family: "montserrat";
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+}
 
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-content h3 {
+  color: #0f0a0a;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.card-content p {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.card-content a {
+  display: block;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
 .projects-container {
   display: flex;
   height: 418px;
