@@ -280,6 +280,7 @@ h5 {
 }
 
 .About-box img {
+  border-bottom: 5px solid orange;
   height: 500px;
   margin-top: 190px;
   margin-bottom: 20px;
